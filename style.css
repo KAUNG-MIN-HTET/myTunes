@@ -171,55 +171,7 @@ section{
     background-color: rgb(32, 82, 139);
 }
 
-@media screen and (max-width:810px) {
-    nav ul li{
-        padding: 20px 20px;
-    }
-}
 
-@media screen and (max-width: 480px) {
-    nav ul li{
-        font-size: 15px;
-        padding: 12px 10px;
-    }
-
-    .container h1{
-        margin: 40px auto 40px;
-    }
-
-    .container .paragraph1{
-        font-size: 20px;
-        margin-bottom: 40px;
-    }
-
-    .container .paragraph2{
-        font-size: 14px;
-    }
-
-    .body .box h2{
-        font-size: 20px;
-    }
-
-    .body .box .p1{
-        font-size: 14px;
-    }
-
-    .body .box small{
-        font-size: 10px;
-    }
-
-    .body-second .content h2{
-        font-size: 20px;
-    }
-
-    .body-second .content p{
-        font-size: 14px;
-    }
-
-    .body-second .content img{
-        width: 100%;
-    }
-}
 
 .starry{
     width: 100%;
@@ -251,67 +203,6 @@ section{
     line-height: 30px;
 }
 
-@media screen and (max-width:810px) {
-    nav ul li{
-        padding: 20px 20px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    nav ul li{
-        font-size: 15px;
-        padding: 12px 10px;
-    }
-
-    .container h1{
-        margin: 40px auto 40px;
-    }
-
-    .container .paragraph1{
-        font-size: 18px;
-        margin-bottom: 40px;
-    }
-
-    .container .paragraph2{
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    .body .box h2{
-        font-size: 20px;
-    }
-
-    .body .box .p1{
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    .body .box small{
-        font-size: 10px;
-    }
-
-    .body-second .content h2{
-        font-size: 20px;
-    }
-
-    .body-second .content p{
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    .body-second .content img{
-        width: 100%;
-    }
-
-    .starry .content h2{
-        font-size: 20px;
-    }
-
-    .starry .content p{
-        font-size: 14px;
-        line-height: 20px;
-    }
-}
 
 .cards{
     width: 100%;
@@ -362,119 +253,6 @@ section{
     color: rgb(0, 62, 133);
 }
 
-@media screen and (max-width:810px) {
-    nav ul li{
-        padding: 20px 20px;
-    }
-
-    .body-second .content img{
-        width: 100%;
-    }
-
-    .cards{
-        width: 100%;
-        height: 500px;
-    }
-
-    .cards .flex .content1,.cards .flex .content2{
-        width: 50%;
-        height: 400px;
-    }
-
-    .cards .flex .content1 img{
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    nav ul li{
-        font-size: 15px;
-        padding: 12px 10px;
-    }
-
-    .container h1{
-        margin: 40px auto 40px;
-    }
-
-    .container .paragraph1{
-        font-size: 18px;
-        margin-bottom: 40px;
-    }
-
-    .container .paragraph2{
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    .body .box h2{
-        font-size: 20px;
-    }
-
-    .body .box .p1{
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    .body .box small{
-        font-size: 10px;
-    }
-
-    .body-second .content h2{
-        font-size: 20px;
-    }
-
-    .body-second .content p{
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    .body-second .content img{
-        width: 100%;
-    }
-
-    .starry .content h2{
-        font-size: 20px;
-    }
-
-    .starry .content p{
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    .cards{
-        width: 100%;
-        height: 100vh;
-    }
-
-    .cards .flex{
-        width: 90%;
-        height: 1005;
-
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: auto auto;
-    }
-
-    .cards .flex .content1,.cards .flex .content2{
-        width: 100%;
-        height: 50%;
-    }
-
-    .cards .flex .content1 img{
-        width: 100%;
-    }
-
-    .cards .flex .content2 h2{
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .cards .flex .content2 p{
-        font-size: 14px;
-        text-align: center;
-    }
-
-}
 
 .grid-container{
     width: 100%;
@@ -631,16 +409,21 @@ section{
 
     .cards .flex{
         width: 90%;
-        height: 1005;
+        height: 100%;
 
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto auto;
     }
 
-    .cards .flex .content1,.cards .flex .content2{
+    .cards .flex .content1{
         width: 100%;
-        height: 50%;
+        height: 40%;
+    }
+
+    .cards .flex .content2{
+        width: 100%;
+        height: 60%;
     }
 
     .cards .flex .content1 img{
